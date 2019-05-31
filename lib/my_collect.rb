@@ -9,6 +9,5 @@ def my_collect(array)
   my_collect(empty_array) do |x|
     i += 1
   end
-  
-end
 
+end
