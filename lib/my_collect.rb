@@ -1,13 +1,11 @@
 def my_collect(array)
   i = 0
-  empty_array = []
+  new_array = []
   while i < array.length
-
-    yield
+    new_array. << yield array[i]
     i = i + 1
   end
-  my_collect(empty_array) do |x|
-    i += 1
+new_array
   end
 
 end
