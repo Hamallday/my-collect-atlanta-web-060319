@@ -3,7 +3,7 @@ def my_collect(array)
   empty_array = []
   while i < array.length
 
-    yield(array[i])
+    yield
     i = i + 1
   end
   my_collect(empty_array) do |x|
