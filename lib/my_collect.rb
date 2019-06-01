@@ -3,8 +3,12 @@ def my_collect(array)
   new_array = []
   while
     i < array.length
-    new_array << yield array[i]
+    new_array.push(yield array[i])
     i += 1
   end
 new_array
+end
+
+my_collect(array) do |name|
+  name.split(" ").first
 end
