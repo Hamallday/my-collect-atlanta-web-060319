@@ -11,7 +11,7 @@
 # new_array
 # end
 #
-# array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 # my_collect(array) do |i|
 #   name.split(" ").first
 # end
