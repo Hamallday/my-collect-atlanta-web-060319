@@ -9,6 +9,6 @@ def my_collect(array)
 new_array
 end
 
-my_collect(array) do |name|
+my_collect(array) do |i|
   name.split(" ").first
 end
